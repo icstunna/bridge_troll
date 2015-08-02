@@ -22,6 +22,7 @@ gem 'gravatar_image_tag'
 gem 'simple_form'
 gem 'rack-canonical-host'
 gem 'icalendar'
+gem 'data-confirm-modal', github: 'ifad/data-confirm-modal'
 gem 'pg' if ENV['FORCE_POSTGRES']
 
 group :production do
@@ -30,6 +31,7 @@ group :production do
   gem 'heroku_rails_deflate'
   gem 'newrelic_rpm'
   gem 'sentry-raven'
+
 end
 
 gem 'handlebars_assets'

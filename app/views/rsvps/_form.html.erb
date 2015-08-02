@@ -168,7 +168,7 @@
       <%= f.hidden_field :event_id %>
       <%= f.hidden_field :role_id %>
       <% unless @rsvp_preview_mode %>
-        <%= f.submit "Submit", class: 'btn btn-submit coc-required' %>
+        <%= f.submit "Submit", class: 'btn btn-submit coc-required', title: "Are you sure?", "data-confirm": "I will definitely come to this workshop! If something totally unavoidable comes up and I can't attend, I will cancel my RSVP as soon as I know I can't make it.", "data-commit": "Yes, I'll be there", "data-cancel": "Cancel RSVP" %>
       <% end %>
     </div>
   <% end %>

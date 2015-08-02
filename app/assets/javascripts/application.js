@@ -20,6 +20,7 @@
 //= require masonry/jquery.masonry
 //= require jquery.event.drag
 //= require jquery.event.drop
+//= require data-confirm-modal
 //= require bridgetroll
 //= require_tree ../templates
 //= require_tree ./enums

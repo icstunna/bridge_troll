@@ -101,20 +101,23 @@ td.wide {
   padding: 9px 16px;
   border-radius: 0;
 
-  background: $darkblue-color;
-  color: white;
   border: none;
   text-shadow: none;
   box-shadow: none;
-
-  &:hover {
-    background-color: #e6e6e6;
-  }
 
   &:disabled, &:disabled:hover {
     background: #eee;
     color: #868686;
     cursor: not-allowed;
+  }
+}
+
+.btn {
+  background: $darkblue-color;
+  color: white;
+
+  &:hover {
+    background-color: #e6e6e6;
   }
 }
 
